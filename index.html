@@ -44,7 +44,7 @@
 
             <div class="showcase-form card">
                 <h2>Request a Company Profile</h2>
-                <form>
+                <form name="google-sheet">
                     <div class="form-control">
                         <input type="text" id="nama" name="nama" placeholder="Name" required>
                     </div>
@@ -156,7 +156,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbw2iDCUL4hSv-NA73bNhH7A4qz3mq0upFcW-ALwXQ7GesuHJ_-EHXYawK2kOBRBQQ/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzGQXV5m4cfjhd6-CVS2wpkg-lMrbz7-0ng2i9rU5hNHXDZ3uYMhGH6GKgSVVJiWOw/exec'
         const form = document.forms['google-sheet']
         
         form.addEventListener('submit', e => {
